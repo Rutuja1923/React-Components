@@ -1,9 +1,9 @@
 import './App.css';
-import Heading from './Components/Heading';
+import ProductList from './Components/ProductCard/ProductList';
 
 function App(){
   return <>
-     <Heading />
+     <ProductList />
   </>;
 }
 export default App;
