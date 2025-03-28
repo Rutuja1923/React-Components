@@ -1,14 +1,15 @@
+/* eslint-disable react/prop-types */
 import './Product.css';
 
-function Product(){ 
+function Product({title, description, image}){ 
     return (
         <div className='Product'>
             <div className='img'>
-                <img src="./src/assets/react-icon.jpg" alt="react-icon" id = 'icon' />
+                <img src={`./src/assets/${image}`} alt="react-icon" id = 'icon' />
             </div>
             <div className='heading'>
-                <h3 id='title'>Product Title</h3>
-                <h5 id='desc'>Product Description</h5>
+                <h3 id='title'>{title}</h3>
+                <h5 id='desc'>{description}</h5>
             </div>
         </div>
     );
