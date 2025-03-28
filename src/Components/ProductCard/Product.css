@@ -1,0 +1,25 @@
+.Product{
+    background-color: rgb(202, 230, 255) ;
+    color: sienna;
+    border: 2px solid sandybrown;
+    border-radius: 14px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.img{
+    padding: 10px;
+}
+
+#icon{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(223, 115, 95);
+}
+
+.heading{
+    padding : 0px 5px;
+}
