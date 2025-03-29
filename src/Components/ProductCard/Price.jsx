@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+
 export default function Price({oldPrice, newPrice}){
     return (
         <div id='price'>
