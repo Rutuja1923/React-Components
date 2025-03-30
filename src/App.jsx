@@ -1,12 +1,12 @@
 import './App.css';
-import LikeButton from './Components/LikeButton';
-import NameForm from './Components/NameForm';
+import LudoBoard from './Components/LudoBoard/LudoBoard';
+import LudoBorad2 from './Components/LudoBoard/LudoBorad2';
 
 function App(){
   return (
     <>
-      <NameForm />
-      <LikeButton />
+      <LudoBoard />
+      <LudoBorad2 />
     </>
   ); 
   
