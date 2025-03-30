@@ -1,11 +1,12 @@
 import './App.css';
-import Calculator from './Components/CalculatorTab/Calculator';
+import LikeButton from './Components/LikeButton';
+import NameForm from './Components/NameForm';
 
 function App(){
   return (
     <>
-      <h1>Calculator</h1>
-      <Calculator />
+      <NameForm />
+      <LikeButton />
     </>
   ); 
   
