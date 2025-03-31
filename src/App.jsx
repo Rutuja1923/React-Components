@@ -1,12 +1,12 @@
 import './App.css';
-import LudoBoard from './Components/LudoBoard/LudoBoard';
-import LudoBorad2 from './Components/LudoBoard/LudoBorad2';
+import ToDoApp from './Components/ToDoApp';
+import Profile from './Components/Profile';
 
 function App(){
   return (
     <>
-      <LudoBoard />
-      <LudoBorad2 />
+      <Profile />
+      <ToDoApp />
     </>
   ); 
   
