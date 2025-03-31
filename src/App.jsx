@@ -1,12 +1,10 @@
 import './App.css';
-import ToDoApp from './Components/ToDoApp';
-import Profile from './Components/Profile';
+import LotteryCard from './Components/LotteryGame/LotteryCard';
 
 function App(){
   return (
     <>
-      <Profile />
-      <ToDoApp />
+      <LotteryCard n={3} winningSum={15}/>
     </>
   ); 
   
